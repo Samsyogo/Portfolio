@@ -10,14 +10,14 @@
  }
  
  body{
-      background: #080808;
-      color: #fff;
+      background:silver;
+      color: snow;
     }
 
 #header{
       width: 100%;
       height: 100vh;
-      background-image: url(images/background2.jpg);
+      background-image: url(images/bgh.jpg);
       background-size: cover;
       background-position: center;
       
@@ -44,7 +44,7 @@ nav ul li{
 
 }
 nav ul li a{
-  color: blue;
+  color: red;
   text-decoration: none;
   font-size: 18px;
   position: relative;
@@ -53,7 +53,7 @@ nav ul li a::after{
   content: '';
   width: 0%;
   height: 3px;
-  background: #ff004f;
+  background: red;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -73,14 +73,14 @@ nav ul li a:hover::after{
 
 }
 .header-text h1 span{
-  color: #ff004f;
+  color: red;
 }
 
 /*-------------about--------------*/
 
 #about{
   padding:80px 0;
-  color: #ababab;
+  color: snow;
 
 }
 .row{
@@ -98,17 +98,20 @@ nav ul li a:hover::after{
 }
 .about-col-2{
   flex-basis: 60%;
+  font-size: 18px;
+
   
 }
 .sub-title{
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
-  color:blue;
+  color:red;
 }
 
 .tab-titles{
   display: flex;
   margin: 20px 0 40px;
+  color: red;
 }
 .tab-links{
   margin-right: 50px;
@@ -122,7 +125,7 @@ nav ul li a:hover::after{
   content: '';
   width: 0;
   height: 3px;
-  background: #ff004f;
+  background:red;
   position: absolute;
   left: 0;
   bottom: -8px;
@@ -140,7 +143,7 @@ nav ul li a:hover::after{
 
 }
 .tab-contents ul li span{
-   color: green;
+   color: red;
   font-size: 20px;
 
 }
@@ -163,7 +166,7 @@ nav ul li a:hover::after{
 
 }
 .services-list div{
-  background: #262626;
+  background: silver;
   padding: 40px;
   font-size: 15px;
   font-weight: 300;
@@ -181,13 +184,13 @@ nav ul li a:hover::after{
 }
 .services-list div a{
   text-decoration: none;
-  color:blueviolet;
+  color:greenyellow;
   font-size: 15px;
 margin-top: 20px;
 display: inline-block; 
 }
 .services-list div:hover{
-  background: #ff004f;
+  background: red;
   transform: translateY(-10px);
 }
 
@@ -241,7 +244,7 @@ display: inline-block;
 }
 .layer a{
   margin-top: 20px;
-  color: #ff004f;
+  color: red;
   text-decoration: none;
   font-size: 18px;
   line-height:60px;
@@ -262,15 +265,16 @@ display: inline-block;
   display: block;
   margin: 50px auto;
   width: fit-content;
-  border: 1px solid #ff004f;
+  border: 1px solid red;
   padding: 14px 50px;
   border-radius: 6px;
   text-decoration: none;
-  color: #fff;
+  color:greenyellow;
   transition: background 0.5s;
+  background-color: red;
 }
 .btn:hover{
-  background: #ff004f;
+  background: red;
 }
 /*-- ---------contact----------- --*/
 
@@ -284,9 +288,10 @@ display: inline-block;
 }
 .contact-left p{
   margin-top: 30px;
+
 }
 .contact-left p i{
-  color: #ff004f;
+  color: blue;
   margin-right: 15px;
   font-size: 25px;
 }
@@ -297,19 +302,19 @@ display: inline-block;
   text-decoration: none;
   font-size: 30px;
   margin-right: 15px;
-  color: #ababab;
+  color: blue;
   display: inline-block;
   transition: transform 0.5s;
 
 }
 .social-icons a:hover{
-  color: #ff004f;
+  color: red;
   transform: translateY(-0.5s);
 
 }
 .btn.btn2{
   display: inline-block;
-  background: #ff004f;
+  background: red;
 
 }
 .contact-right form{
@@ -320,10 +325,10 @@ display: inline-block;
   width: 100%;
   border: 0;
   outline: none;
-  background: #262626;
+  background: snow;
   padding: 15px;
   margin: 15px 0;
-  color: #fff;
+  color: green;
   font-size: 18px;
   border-radius: 6px;
 }
@@ -337,12 +342,12 @@ display: inline-block;
   width: 100%;
   text-align: center;
   padding: 25px 0;
-  background: #262626;
+  background: grey;
   font-weight: 300;
   margin-top: 20px;
 }
 .copyright i{
-  color: #ff004f;
+  color: red;
 }
 
 
@@ -354,7 +359,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
       #header{
-        background-image: url(images/phone-background.jpg);
+        background-image: url(images/phone-bgh.jpg);
       }
 
     .header-text{
@@ -368,10 +373,10 @@ nav .fas{
     nav .fas{
       display: block;
       font-size: 25px;
-      color: blue;
+      color: red;
     } 
     nav ul{
-      background: #ff004f;
+      background:snow;
       position: fixed;
       top: 0;
       right: -200px;
