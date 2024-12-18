@@ -10,7 +10,7 @@
  }
  
  body{
-      background:silver;
+      background:#2b2c50;
       color: snow;
     }
 
@@ -44,7 +44,7 @@ nav ul li{
 
 }
 nav ul li a{
-  color: red;
+  color: #3282b8;
   text-decoration: none;
   font-size: 18px;
   position: relative;
@@ -53,7 +53,7 @@ nav ul li a::after{
   content: '';
   width: 0%;
   height: 3px;
-  background: red;
+  background: #3282b8;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -73,7 +73,7 @@ nav ul li a:hover::after{
 
 }
 .header-text h1 span{
-  color: red;
+  color: #3282b8;
 }
 
 /*-------------about--------------*/
@@ -105,13 +105,13 @@ nav ul li a:hover::after{
 .sub-title{
   font-size: 50px;
   font-weight: 600;
-  color:red;
+  color:#3282b8;
 }
 
 .tab-titles{
   display: flex;
   margin: 20px 0 40px;
-  color: red;
+  color: #3282b8;
 }
 .tab-links{
   margin-right: 50px;
@@ -125,7 +125,7 @@ nav ul li a:hover::after{
   content: '';
   width: 0;
   height: 3px;
-  background:red;
+  background:#f4b97b;
   position: absolute;
   left: 0;
   bottom: -8px;
@@ -190,7 +190,7 @@ margin-top: 20px;
 display: inline-block; 
 }
 .services-list div:hover{
-  background: red;
+  background: #f4b97b;
   transform: translateY(-10px);
 }
 
@@ -244,7 +244,7 @@ display: inline-block;
 }
 .layer a{
   margin-top: 20px;
-  color: red;
+  color: #f4b97b;
   text-decoration: none;
   font-size: 18px;
   line-height:60px;
@@ -308,7 +308,7 @@ display: inline-block;
 
 }
 .social-icons a:hover{
-  color: red;
+  color: #f4b97b;
   transform: translateY(-0.5s);
 
 }
@@ -347,7 +347,7 @@ display: inline-block;
   margin-top: 20px;
 }
 .copyright i{
-  color: red;
+  color: darkblue;
 }
 
 
