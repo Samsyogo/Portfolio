@@ -143,7 +143,7 @@ nav ul li a:hover::after{
 
 }
 .tab-contents ul li span{
-   color: red;
+   color: #3282b8;
   font-size: 20px;
 
 }
@@ -166,7 +166,7 @@ nav ul li a:hover::after{
 
 }
 .services-list div{
-  background: silver;
+  background: #3282b8;
   padding: 40px;
   font-size: 15px;
   font-weight: 300;
@@ -265,16 +265,16 @@ display: inline-block;
   display: block;
   margin: 50px auto;
   width: fit-content;
-  border: 1px solid red;
+  border: 1px solid #3282b8;
   padding: 14px 50px;
   border-radius: 6px;
   text-decoration: none;
   color:greenyellow;
   transition: background 0.5s;
-  background-color: red;
+  background-color: #3282b8;
 }
 .btn:hover{
-  background: red;
+  background: #f4b97b;
 }
 /*-- ---------contact----------- --*/
 
@@ -291,7 +291,7 @@ display: inline-block;
 
 }
 .contact-left p i{
-  color: blue;
+  color: #3282b8;
   margin-right: 15px;
   font-size: 25px;
 }
@@ -302,7 +302,7 @@ display: inline-block;
   text-decoration: none;
   font-size: 30px;
   margin-right: 15px;
-  color: blue;
+  color: #3282b8;
   display: inline-block;
   transition: transform 0.5s;
 
@@ -314,7 +314,7 @@ display: inline-block;
 }
 .btn.btn2{
   display: inline-block;
-  background: red;
+  background: #3282b8;
 
 }
 .contact-right form{
@@ -342,12 +342,12 @@ display: inline-block;
   width: 100%;
   text-align: center;
   padding: 25px 0;
-  background: grey;
+  background: #3282b8;
   font-weight: 300;
   margin-top: 20px;
 }
 .copyright i{
-  color: darkblue;
+  color: greenyellow;
 }
 
 
